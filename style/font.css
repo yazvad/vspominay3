@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'TTFirsNeue-Regular';
+    src: url("../fonts/TTFirsNeue/TTFirsNeue-Regular.ttf") format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'TTFirsNeue-Medium';
+    src: url("../fonts/TTFirsNeue/TTFirsNeue-Medium.ttf") format('truetype');
+    font-style: Medium;
+    font-weight: 500;
+}

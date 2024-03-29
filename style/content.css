@@ -1,0 +1,422 @@
+html {
+    background: black;
+  }
+
+.all {
+    overflow: hidden;
+}
+.firsttext {
+  font-family: 'TTFirsNeue-Regular';
+    src: url(../fonts/TTFirsNeue/TTFirsNeue-Regular.ttf) format('truetype');
+  color: #FFF;
+  text-align: center;
+  font-size: 9.52vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 80%; /* 123.2px */
+  letter-spacing: -0.42vw;
+  margin-top: 8.33vw;
+  margin-left: 2.98vw;
+  margin-right: 2.98vw;
+  position: relative;
+}
+
+.star1 {
+  position: absolute;
+  margin-top: -47.62vw;
+  height: 35.71vw;
+}
+
+.star2 {
+  position: absolute;
+  margin-top: -35.71vw;
+  margin-left: 29.76vw;
+  height: 35.71vw;
+}
+
+.star3 {
+  position: absolute;
+  margin-top: -17.86vw;
+  margin-left: 65.48vw;
+  height: 23.81vw;
+}
+
+.star4 {
+  position: absolute;
+  margin-top: -62.50vw;
+  margin-left: 47.62vw;
+  height: 47.62vw;
+}
+
+.star5 {
+  position: absolute;
+  margin-top: -11.90vw;
+  margin-left: 20.83vw;
+  height: 23.81vw;
+}
+
+.star6 {
+  position: absolute;
+  margin-top: 2.98vw;
+  margin-left: 2.98vw;
+  height: 17.86vw;
+}
+
+.star7 {
+  position: absolute;
+  margin-top: -29.76vw;
+  margin-left: 83.33vw;
+  height: 17.86vw;
+}
+
+.minitext {
+  font-family: 'TTFirsNeue-Regular';
+    src: url(../fonts/TTFirsNeue/TTFirsNeue-Regular.ttf) format('truetype');
+  color: #FFF;
+  text-align: center;
+  font-size: 0.89vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 80%; /* 123.2px */
+  letter-spacing: -0.03vw;
+  margin-top: 14.88vw;
+  margin-left: 81.33vw;
+  margin-right: 2.98vw;
+  position: relative;
+}
+
+.staples {
+  position: absolute;
+  margin-top: -1.5vw;
+  margin-left: 82.14vw;
+  height: 2.08vw;
+}
+
+.block{
+  display: block;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.block1 {
+  height: 44.64vw;
+  margin-left: -0.89vw;
+  margin-top: 5.95vw;
+}
+
+.empty1 {
+  height: 44.64vw;
+  margin-left: -71vw;
+  margin-top: 5.95vw;
+  position: absolute;
+}
+.block:hover .block1 { 
+  opacity:1;
+  filter:alpha (opacity=100);
+}
+.handd:hover .empty1, .block .empty1:hover { 
+  opacity:0;
+  filter:alpha (opacity=0);
+}
+
+.block2 {
+  height: 44.64vw;
+  margin-top: 5.95vw;
+  margin-left: -4.76vw;
+}
+
+.empty2 {
+  height: 44.64vw;
+  margin-left: -24.5vw;
+  margin-top: 5.95vw;
+  position: absolute;
+}
+.block:hover .block2 { 
+  opacity:1;
+  filter:alpha (opacity=100);
+}
+.handd:hover .empty2, .block .empty2:hover { 
+  opacity:0;
+  filter:alpha (opacity=0);
+}
+
+.block3 {
+  height: 44.64vw;
+  margin-top: 5.95vw;
+  margin-left: -4.76vw;
+}
+.empty3 {
+  height: 44.64vw;
+  margin-left: 22.5vw;
+  margin-top: 5.95vw;
+  position: absolute;
+}
+.block:hover .block3 { 
+  opacity:1;
+  filter:alpha (opacity=100);
+}
+.handd:hover .empty3, .block .empty3:hover { 
+  opacity:0;
+  filter:alpha (opacity=0);
+}
+
+.block4 {
+  height: 44.64vw;
+  margin-top: 5.95vw;
+  margin-left: -4.76vw;
+  position: relative;
+}
+.empty4 {
+  height: 44.64vw;
+  margin-left: 69vw;
+  margin-top: 5.95vw;
+  position: absolute;
+}
+.block:hover .block4 { 
+  opacity:1;
+  filter:alpha (opacity=100);
+}
+.handd:hover .empty4, .block .empty4:hover { 
+  opacity:0;
+  filter:alpha (opacity=0);
+}
+
+.blockmini {
+  display: none;
+}
+
+.vector1 {
+  height: 71.43vw;
+  margin-left: 53.57vw;
+  margin-top: -11.90vw;
+}
+.vector1 {
+  position: relative;
+  animation: fly 10s infinite linear;
+}
+@keyframes fly{
+  0% {transform: translate(50px, -50px)}
+  20% {transform: translate(-200px, 50px)}
+  40% {transform: translate(-200px, -50px)}
+  80% {transform: translate(240px, 233px)}
+  100% {transform: translate(50px, -50px);}  
+}
+
+
+.meet {
+  height: 29.76vw;
+  position: absolute;
+  margin-top: -35.71vw;
+ margin-left: -5.95vw;
+}
+.meet {
+  position: relative;
+  animation: fly3 25s infinite linear;
+}
+@keyframes fly3{
+  0% {transform: translate(-50px, 50px)}
+  20% {transform: translate(50px, -200px)}
+  40% {transform: translate(-400px, -300px)}
+  80% {transform: translate(0px, 200px)}
+  100% {transform: translate(-50px, 50px);}  
+}
+
+.starstar {
+  height: 59.52vw;
+  position: absolute;
+  margin-left: 47.62vw;
+  margin-top: -17.86vw;
+}
+.starstar {
+  position: relative;
+  animation: fly5 5s infinite linear;
+}
+@keyframes fly5{
+  0% {transform: translate(70px, -70px)}
+  20% {transform: translate(-300px, 70px)}
+  40% {transform: translate(-300px, -70px)}
+  80% {transform: translate(340px, 333px)}
+  100% {transform: translate(70px, -70px);}  
+}
+
+.B {
+  height: 17.86vw;
+  margin-left: 17.86vw;
+  margin-top: 11.90vw;
+}
+.B {
+  position: relative;
+  animation: fly4 5s infinite linear;
+}
+@keyframes fly4{
+  0% {transform: translate(70px, -70px)}
+  20% {transform: translate(-300px, 70px)}
+  40% {transform: translate(-300px, -70px)}
+  80% {transform: translate(340px, 333px)}
+  100% {transform: translate(70px, -70px);}  
+}
+
+
+.vector2 {
+  position: absolute;
+  height: 47.62vw;
+  margin-top: 11.90vw;
+  margin-left: -41.67vw;
+}
+.vector2 {
+  position: relative;
+  animation: fly2 10s infinite linear;
+}
+@keyframes fly2{
+  0% {transform: translate(-80px, 80px)}
+  20% {transform: translate(-100px, 200px)}
+  40% {transform: translate(500px, -200px)}
+  80% {transform: translate(-100px, -400px)}
+  100% {transform: translate(-80px, 80px);}  
+}
+
+
+.pattern1 {
+  position: absolute;
+  height: 41.67vw;
+  margin-top: -95.24vw;
+}
+
+.pattern2 {
+  position: absolute;
+  height: 11.90vw;
+  margin-left: 23.81vw;
+  margin-top: -14.88vw;
+}
+
+.pattern3 {
+  position: absolute;
+  height: 26.79vw;
+  margin-left: 80.36vw;
+  margin-top: -2.98vw;
+}
+
+.znak {
+  height: 142.86vw;
+  margin-top: 35.71vw;
+}
+
+.ellipse {
+  height: 4.76vw;
+  margin-top: 53.57vw;
+  position: absolute;
+  margin-left: -83.33vw;
+}
+
+.ellipse2 {
+  height: 4.76vw;
+  margin-top: 65.48vw;
+  position: absolute;
+  margin-left: -35.71vw;
+}
+
+.ellipse3 {
+  height: 4.76vw;
+  margin-top: 119.05vw;
+  position: absolute;
+  margin-left: -20.83vw;
+}
+
+.ellipse4 {
+  height: 4.76vw;
+  margin-top: 92.26vw;
+  position: absolute;
+  margin-left: -65.48vw;
+}
+
+.ellipse5 {
+  height: 4.76vw;
+  margin-top: 142.86vw;
+  margin-left: -29.76vw;
+  position: absolute;
+}
+
+.ellipse6 {
+  height: 4.76vw;
+  margin-top: 157.74vw;
+  margin-left: -59.52vw;
+  position: absolute;
+}
+
+.hse {
+  height: 5.95vw;
+  margin-left: 5.95vw;
+}
+
+.starend {
+  height: 29.76vw;
+  display: flex;
+  margin-left: 11.90vw;
+  margin-top: -17.86vw;
+}
+
+.end {
+  font-family: 'TTFirsNeue-Medium';
+  src: url("../fonts/TTFirsNeue/TTFirsNeue-Medium.ttf") format('truetype');
+  font-style: Medium;
+  color: #FFF;
+  font-size: 3.57vw;
+  text-align: right;
+  letter-spacing: -0.30vw;
+  margin-top: -14.88vw;
+  margin-right: 1.79vw;
+  position: relative;
+}
+
+.group {
+  font-family: 'TTFirsNeue-Regular';
+    src: url(../fonts/TTFirsNeue/TTFirsNeue-Regular.ttf) format('truetype');
+  color: #FFF;
+  font-size: 1.19vw;
+  text-align: right;
+  margin-right: 1.19vw;
+}
+
+.rectangle {
+  position: absolute;
+  height: 110vw;
+  margin-top: -130vw;
+  margin-left: 10vw;
+}
+
+h4 {
+  font-family: 'TTFirsNeue-Regular';
+  src: url(../fonts/TTFirsNeue/TTFirsNeue-Regular.ttf) format('truetype');
+  color: black;
+  font-size: 1.5vw;
+  text-align: left;
+  position: absolute;
+  letter-spacing: -0.06vw;
+}
+
+.first {
+  margin-top: -129vw;
+  margin-left: 21vw;
+}
+.sec {
+  margin-top: -113.5vw;
+  margin-left: 66.5vw;
+}
+.thrd {
+  margin-top: -78.5vw;
+  margin-left: 11vw;
+}
+.four {
+  margin-top: -68.5vw;
+  margin-left: 59.5vw;
+}
+.five {
+  margin-top: -26vw;
+  margin-left: 16.5vw;
+}
+.six {
+  margin-top: -31vw;
+  margin-left: 72vw;
+}
+
